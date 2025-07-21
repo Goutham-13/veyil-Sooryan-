@@ -42,8 +42,8 @@ body {
 }
 
 .lottie-container dotlottie-wc {
-  width: 150px !important;
-  height: 150px !important;
+  width: 120px !important;
+  height: 120px !important;
   margin-left: 0 !important;
   margin-right: auto;
   display: block;
@@ -57,7 +57,7 @@ body {
 
 
 .header {
-  margin-top: 20px;
+  margin-top: 10px;
   padding-left: 20px;
   text-align: left;
 }
