@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Veyil</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Urbanist:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.6.2/dist/dotlottie-wc.js" type="module"></script>
+
+</head>
+<body>
+  <div class="theme-toggle" onclick="toggleTheme()">
+    <span id="theme-icon">🌞</span>
+  </div>
+
+<!-- Lottie Animation -->
+<div class="lottie-container">
+  <dotlottie-wc 
+    src="https://lottie.host/ed0eb0b1-f8e9-49db-9914-cad427cf7026/xjKknakofy.lottie"
+    style="width: 300px; height: 300px; margin: 0 auto;"
+    speed="1" autoplay loop>
+  </dotlottie-wc>
+</div>
+
+<div class="header">
+  <div class="greeting" id="greetingText">Good Afternoon</div>
+  <div class="subtext">Where are you headed today?</div>
+</div>
+
+
+
+ <div class="form-block">
+  <div class="location-group">
+    <div class="location-icon">📍</div>
+    <div class="input-container">
+      <label for="from">From</label>
+      <input type="text" id="from" placeholder="Enter the starting location">
+    </div>
+    <div class="dotted-line"></div>
+  </div>
+
+  <div class="location-group">
+    <div class="location-icon">📍</div>
+    <div class="input-container">
+      <label for="to">To</label>
+      <input type="text" id="to" placeholder="Enter the destination">
+    </div>
+  </div>
+</div>
+
+<button class="veyil-btn">Find the Veyil</button>
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,1 @@
+add an option to predicate the weather and recommend to take an umberlla or raincoat 
