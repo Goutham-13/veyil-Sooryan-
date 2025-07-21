@@ -37,7 +37,8 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  margin-top: 10px;
+     /* Increased from 40px */
+  padding-top: 90px !important;     /* Increased from 100px */
 }
 
 .lottie-container dotlottie-wc {
@@ -47,6 +48,7 @@ body {
   margin-right: auto;
   display: block;
 }
+
 
 
 
